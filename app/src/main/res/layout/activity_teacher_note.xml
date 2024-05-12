@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- EditText for Note -->
+    <EditText
+        android:id="@+id/editTextNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your note"
+        android:inputType="textMultiLine"
+        android:gravity="start"
+        android:minLines="6"
+        android:maxLines="10"
+        android:scrollbars="vertical" />
+
+    <!-- Button to Save Note -->
+    <Button
+        android:id="@+id/buttonSaveNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNote"
+        android:layout_marginTop="16dp"
+        android:text="Save Note"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/login_screen_button"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+
+</RelativeLayout>

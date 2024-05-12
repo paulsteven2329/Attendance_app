@@ -1,0 +1,14 @@
+<resources>
+    <color name="lavender">#FFBB86FC</color>
+    <color name="blue">#FF6200EE</color>
+    <color name="dark_blue">#FF3700B3</color>
+    <color name="teal">#FF03DAC5</color>
+    <color name="dark_teal">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="item">#F7D927</color>
+    <color name="item1">#CFCFCF</color>
+    <color name="item2">#52ACFF</color>
+    <color name="item3">#FF6F00</color>
+    <color name="item4">#FFD600</color>
+</resources>

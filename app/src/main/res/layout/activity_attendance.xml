@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TEACHTRACK"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/profileImageView"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="33dp"/>
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edittext_bg"/>
+
+    <EditText
+        android:id="@+id/editTextRollNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Roll Number"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edittext_bg"/>
+
+    <EditText
+        android:id="@+id/editTextSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edittext_bg"/>
+
+    <Button
+        android:id="@+id/buttonSelectDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/login_screen_button"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSelectTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/login_screen_button"
+        android:layout_marginTop="8dp"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButtonAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="Absent"
+        android:textOn="Present"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/login_screen_button"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/login_screen_button"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
